@@ -5,7 +5,7 @@ const UserDropdown = ({ open }) => {
   if (!open) return null;
 
   return (
-    <div className="absolute right-0 top-full mt-2 w-64 bg-white shadow-lg border rounded-lg z-50 text-sm">
+    <div className="absolute right-0 top-full mt-2 w-64 bg-white shadow-lg border rounded-lg  text-sm">
       <div className="p-4">
         <h2 className="font-bold text-black mb-1">Welcome</h2>
         <p className="text-gray-600 text-sm">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white z-0 top-0">
       {/* Background Image */}
       <div className="w-full h-[80vh] flex items-center justify-center px-6 md:px-20 bg-gray-100">
         {/* Image on Right */}

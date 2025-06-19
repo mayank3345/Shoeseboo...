@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       {/* Nav Bar */}
-      <nav className="flex items-center justify-between px-6 py-4 shadow-sm bg-white sm:text-xs z-50 relative">
+      <nav className="flex items-center top-0 justify-between px-6 py-4 shadow-sm bg-white sm:text-xs z-50 relative">
         {/* Burger Icon */}
         <div className="md:hidden text-gray-800">
           <button onClick={() => setMobileMenu(!mobileMenu)}>
@@ -67,10 +67,10 @@ const Navbar = () => {
         </div>
 
         <CategoryDropDown open={open} />
+        {mobileMenu && <GenderTabMenu mobileMenu={mobileMenu} />}
       </nav>
 
       {/* GenderTabMenu placed OUTSIDE the nav */}
-      {mobileMenu && <GenderTabMenu mobileMenu={mobileMenu} />}
     </>
   );
 };

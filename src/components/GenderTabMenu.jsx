@@ -29,7 +29,7 @@ const GenderTabMenu = ({ mobileMenu }) => {
   const current = data[activeTab];
   if (!mobileMenu) return null;
   return (
-    <div className="bg-blue-600 text-white w-full p-4 h-full md:hidden transition-all duration-300">
+    <div className="bg-blue-600 text-white z-40 w-full p-4  h-[60vh] md:hidden transition-all duration-300 ease-in-out fixed top-21 left-0">
       {/* Tabs */}
       <div className="flex gap-8 mb-4 text-lg font-bold">
         {["men", "women"].map((gender) => (

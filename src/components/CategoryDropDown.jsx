@@ -13,7 +13,7 @@ const CategoryDropDown = ({ open }) => {
 
   return (
     <div
-      className={`absolute top-27 left-0 w-full bg-white border-t shadow-xl z-50 overflow-hidden transition-all duration-300 ease-in-out ${
+      className={`absolute top-15 left-0 w-full bg-white border-t shadow-xl z-50 overflow-hidden transition-all duration-300 ease-in-out ${
         open
           ? "opacity-100 max-h-[1000px] py-6"
           : "opacity-0 max-h-0 py-0 pointer-events-none"
